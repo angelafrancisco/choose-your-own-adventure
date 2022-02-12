@@ -113,7 +113,7 @@ console.log(`\nWow! Now that ${currentPokemon} learned a new skill, let's check 
 
 ////// FUNCTION FOR CHECKING CURRENT POKEMON STATS
     function checkPokemonStats(){
-        const checkStats = prompt(`>> Choose one: [S] skills, [F] friendship, [H] health, [A] all stats or [E] exit ... `);
+        const checkStats = prompt(`>> Choose one: [S] skills, [F] friendship, [H] health, [A] all stats or [E] exit ... `).toUpperCase();
         // OPTION FOR SKILLS
         if(checkStats === "S"){
             console.log(`\n${currentPokemon} has learned ${pokemonSkills} skill(s).`);
@@ -154,7 +154,7 @@ console.log(`\nHey what's that over there?! You found some food nearby!`)
 
     //////// FUNCTION FOR FEEDING POKEMON
     function feedPokemon(){
-        const feedPokemonChoice = prompt(`>> Choose one: [A] apple slices, [B] berries, or [C] candy wrapper ... `);
+        const feedPokemonChoice = prompt(`>> Choose one: [A] apple slices, [B] berries, or [C] candy wrapper ... `).toUpperCase();
         // OPTION FOR APPLE SLICES
         if(feedPokemonChoice === "A"){
             pokemonHealth += 10;
