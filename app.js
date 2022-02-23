@@ -15,6 +15,7 @@ const pokemonOptions = [
     // index 2:  0   -  1
         ["Squirtle", "water"]
 ];
+
 /////// POKEMON MOVES ARRAY
 const movesPikachu = ["Quick Attack", "Thunder Shock"];
 const movesCharmander = ["Scratch", "Ember"];
