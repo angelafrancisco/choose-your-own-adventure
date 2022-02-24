@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Trainer | Game by Angela</title>
+    <!-- FONTS -->
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <nav>
+        <button id="game-rules-button">GAME RULES</button>
+        <div class="game-rules-modal">
+            <!-- this modal will appear after game-rules-button is clicked -->
+            <div class="modal-text"></div>
+            <h1>How to Play: Pokemon Trainer</h1>
+            <p>Here's text on how to play this game.</p>
+        </div>
+        <button id="start-game-button">START GAME</button>
+    </nav>
+    <main>
+        <section class="pokemon-section">
+            <div id="current-pokemon">
+                <h3>Current Pokemon</h3>
+                <div>
+                    <!-- div for the current pokemon img, created via jQuery, img id= 'current-pokemon-img' -->
+                    <!-- add placeholder img for game start -->
+                </div>
+            </div>
+            <div id="current-pokemon-skills">
+                <h3>Current Skills</h3>
+                <ul id="current-skill-list">
+                    <li id="first-skill">first skill</li>
+                    <li id="second-skill">second skill</li>
+                </ul>
+            </div>
+            <div id="current-pokemon-stats">
+                <div class="current-stat health">
+                    <h3>Health</h3>
+                    <p id="stat-health">100</p>
+                </div>
+                <div class="current-stat friend">
+                    <h3>Friendship</h3>
+                    <p id="stat-friend">100</dp>
+                </div>
+            </div>
+        </section>
+        <section class="gameplay-section">
+            <div class="game-img-container">
+                <!-- add div here for images to show based on user progress in game? -->
+                <img id="background-img" src="images/pokemon-bahnijit-barman-1fZC2rYbpsU-unsplash.jpg"
+                    alt="Two Pokeballs sitting on green grass behind blue sky and clouds">
+            </div>
+            <div class="game-terminal-container">
+                <!-- add div here for terminal text prompts -->
+                <div class="terminal-output-box">
+                    <p id="terminal-text">terminal text goes here</p>
+                </div>
+                <!-- add text form here for user input from prompts -->
+                <form action="">
+                    <label for="player-input">Player Input</label><br>
+                    <input type="text" id="player-input" name="player-input"><br>
+                    <input type="submit" value="Next">
+                </form>
+                <!-- add button for user to advance -->
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>made by ANGELA 2022</p>
+    </footer>
+</body>
+
+</html>

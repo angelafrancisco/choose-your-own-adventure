@@ -1,0 +1,21 @@
+/* temporary border on all elements */
+* {
+    border: 1px solid green;
+}
+/* POKEMON SECTION: showing current pokemon, skills, stats of player */
+.pokemon-section,
+#current-pokemon,
+#current-pokemon-skills,
+.current-stat,
+.gameplay-section
+ {
+    display: flex;
+    flex-direction: row;
+}
+
+#background-img {
+    height: 50vh;
+}
+.game-terminal-container {
+    
+}
