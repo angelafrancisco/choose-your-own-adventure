@@ -1,21 +1,114 @@
 /* temporary border on all elements */
-* {
+/* * {
     border: 1px solid green;
+} */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav {
+    padding: 5px;
+    margin: 10px;
+}
+section {
+    padding: 5px;
+}
+/* RULES MODAL - SHOWN AT START OF GAME */
+.game-rules-modal {
+    /* display: none; */
+}
+.show-rules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #000000;
+    background-color: #ffffff;
 }
 /* POKEMON SECTION: showing current pokemon, skills, stats of player */
-.pokemon-section,
-#current-pokemon,
-#current-pokemon-skills,
-.current-stat,
-.gameplay-section
- {
-    display: flex;
-    flex-direction: row;
+.pokemon-section {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: fit-content;
+    width: 700px;
+    border: 2px dashed #000000;
+    padding: 5px;
+    margin: 5px;
 }
-
-#background-img {
-    height: 50vh;
+.current-pokemon-box, .current-skills-box, .current-stats-box {
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.box-title {
+    margin: 20px 10px;
+    width: fit-content;
+}
+.pokemon-img, .skill, .stat-number {
+    border: 1px solid #000000;
+}
+.no-pokemon-img {
+    width: 100px;
+}
+.pokemon-img {
+    display: none;
+    width: 100px;
+}
+/* new class added via player selection */
+.current-pokemon {
+    display: inline;
+}
+.current-skill-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+.skill {
+    margin: 10px 0px;
+    padding: 5px;
+    /* display: none; */
+}
+/* new class added via player selection */
+.new-skill {
+    display: contents;
+}
+.current-stat.titles {
+    display: block;
+    align-items: flex-end;
+}
+.current-stat.num {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+.current-stat.num p {
+    margin: 5px 0px;
+    padding: 5px;
+}
+.stat-number {
+    text-align: center;
+}
+/* populated stats via game play */
+#health, #friend {
+    font-weight: 700;
 }
 .game-terminal-container {
-    
+    border: 2px dashed #000000;
+    height: fit-content;
+    width: 700px;
+    padding: 5px;
+}
+#terminal-text {
+    border: 1px solid #000000;
+    height: fit-content;
+    width: 680px;
+    padding: 5px;
+    margin: 5px;
 }

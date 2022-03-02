@@ -37,3 +37,8 @@ Open project directory. From directory, install NPM packages:
 $ npm i
 ```
 This will install the `prompt-sync` package which will allow you to run the `prompt()` function.
+
+
+## Credits:
+- Pokemon images: [Pikachu](https://www.pokemon.com/us/pokedex/pikachu) | [Squirtle](https://www.pokemon.com/us/pokedex/squirtle) | [Charmander](https://www.pokemon.com/us/pokedex/charmander)
+- Game images: 
