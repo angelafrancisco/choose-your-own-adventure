@@ -25,6 +25,11 @@ The game is structured in sections, each containing two parts: what just happend
 - Used variables to keep track of things that have happened in the story (e.g. accumulated health points, tasks, etc.)
 - Ended game with `process.exit()`
 
+## To Play on Web Browser:
+
+Game hosted on GitHub Pages:
+
+https://angelafrancisco.github.io/choose-your-own-adventure/
 
 ## To Play Locally:
 
@@ -40,5 +45,6 @@ This will install the `prompt-sync` package which will allow you to run the `pro
 
 
 ## Credits:
-- Pokemon images: [Pikachu](https://www.pokemon.com/us/pokedex/pikachu) | [Squirtle](https://www.pokemon.com/us/pokedex/squirtle) | [Charmander](https://www.pokemon.com/us/pokedex/charmander)
-- Game images: 
+- Pokemon images: [Pikachu](https://www.pokemon.com/us/pokedex/pikachu) | [Squirtle](https://www.pokemon.com/us/pokedex/squirtle) | [Charmander](https://www.pokemon.com/us/pokedex/charmander) | [Mystery Pokemon image](https://lolfilter.com/effect/1540755265106170/Guess%20the%20Pokemon!)
+- Game background image: [Bahnijit Barman](https://unsplash.com/@bahnijitb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/pokemon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  
